@@ -19,8 +19,6 @@ jobs:
         run: npm run lint
       - name: Test code
         run: npm run test
-      - name: List dist folder contents
-        run: ls -al dist
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4.6.2
         with:
